@@ -257,14 +257,49 @@ nav .right a:hover,
   flex: 2;
 }
 
-.project-section .project-card .project-details img
+.project-section .project-card .project-details  .cells {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-section .project-card .project-details .cells .cell  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+   width: 30%; 
+
+  padding: 8px;
+  margin: 5px;
+  border-radius: 18px;
+
+  color: var(--palest-purple);
+  background: var(--button-gradient);
+  box-shadow: var(--shadow);
+}
+
+.project-section .project-card .project-details .cells .cell img {
+  width: 30%;
+  object-fit: contain;
+  border-radius: 2px;
+  margin: 5px;
+  padding-left:2px;
+}
+
+.project-section .project-card .project-details .cells .cell span {
+  font-size: 12px;
+  margin: 2px;
+}
+
+/* .project-section .project-card .project-details img
  {
   width: 200px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 10px;
-}
+} */
 
 .project-section .project-card .project-details video{
   width: 300px;
