@@ -42,7 +42,7 @@
         <h2>Hi, I'm Izzy! 👋</h2>
         <p>I'm a software developer studying <b>Computer Games Technology</b> and working on some of my own personal side projects. 
           After finishing my professional placement with <b>Unity Technologies</b> this year, I am continuing to expand on my programming skills; 
-          exploring new opportunities and meeting more people throughout frequent industry events. 😆</p>
+          explore new opportunities and meet new people at more industry events. 😆</p>
 
         <div class="links">
           <a href="#skills">
@@ -231,6 +231,52 @@
 
       <div class="project-card">
         <div class="project-details">
+          <h3>Bluffs & Bribes</h3>
+          
+          <div class = "cells">
+            <div class="cell">
+              <img src="images/logos/csharp-logo.png" alt="C# logo">
+              <span>C#</span>
+            </div>
+            <div class="cell">
+              <img src="images/logos/unity.png" alt="Unity logo">
+              <span>Unity</span>
+            </div>
+            <div class="cell">
+              <img src="images/logos/github.png" alt="GitHub logo">
+              <span>Github</span>
+            </div>
+          </div>
+          
+          <!-- <video controls muted loop> 
+            <source src = "videos/CollabDemo.mp4" type = "video/mp4">
+          </video> -->
+          <img class = "temp-image" src="images/projects/under-construction.jpg" alt="Under Construction image">
+
+        </div>
+
+        <div class="text">
+          <p>A Texas Hold'em style poker game inspired by the <b>Brackey's 2026 Game Jam</b> theme <i>Trust No One</i> , that I am independently working on. 
+            Where you compete against AI players to win the pot while everyone may be cheating and lying to you, including the dealer... </p>
+          <p style = "font-weight:bold">So far, I have:</p>
+          <ul>
+            <li>Implemented a full gameplay loop following traditional Texas Hold'em poker rules with basic enemy AIs and systems to check for winning hands</li>
+            <li>Built on my understanding of <b>Unity's</b> event system to manage turn handling</li>
+            <li>Created funcitonal UIs for player's to interact with when taking their turn and visualise enemy turns</li>         
+          </ul>
+          <p style = "font-weight:bold">Next I am planning to:</p>
+          <ul>
+            <li>Improve the enemy's AI to make bets based on what rank hands they currently have / have the potential to make</li>
+            <li>Introduce a saving system to store and load player's previous runs from</li>
+            <li>Finish the implementation of bribery mechanics and the tipoff system that allows cheating within the game</li>
+            <li>Adapt the game to be suitable to play on mobile devices</li>     
+            <li>Expand my art, UX and audio skills to create a more engaging player experience</li>        
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-details">
           <h3>BTW Drone Racing Minigame</h3>
           
           <div class = "cells">
@@ -338,17 +384,17 @@
         </div>
 
         <div class="text">
-          <p>A C++ project to create a rasteriser and raytracer from scratch to recreate a game scene, that I independently developed as part of my university course</p>
+          <p>A <b>C++</b> project to create a rasteriser and raytracer from scratch to recreate a game scene, that I independently developed as part of my university course</p>
           <p style = "font-weight:bold">In this project I achieved:</p>
           <ul>
-            <li>Devloping a C++ class that reads vertex information from an OBJ file that can be used to render 3D models</li>
+            <li>Devloping a <b>C++</b> class that reads vertex information from an OBJ file that can be used to render 3D models</li>
             <li>Understanding and using barycentric coordinates to render triangulated meshes in my scene</li>
             <li>Using vector and matrix mathematics to transform models' vertices in the scene</li>
             <li>Independently researching and implementing Bézier curves to mathematically draw curved shapes</li>
             <li>Understanding Bresenham's line algorithm to draw wireframes and shapes in my scene</li>
             <li>Implementing lighting in my scene to create ambient, directional, point and spotlights</li>
             <li>Adapting code to read and interpolate UV and normal data to texture 3D models that simulate light and shading more accurately</li>
-            <li>Developing a C++ raytracer that accounts for reflective surfaces, refractive surfaces and shadow mapping</li>
+            <li>Developing a <b>C++</b> raytracer that accounts for reflective surfaces, refractive surfaces and shadow mapping</li>
             <li>Adapting my rendering code to implement HDR, bloom and anti-aliasing</li>
           </ul>
         </div>
@@ -389,12 +435,14 @@
         </div>
       
         <div class="text">
-          <p>A 2D multiplayer game developed in <b>C++</b> and <b>SDL</b>, as a submission for <b>Global Game Jam 2025</b>.</p>
+          <p>A 2D local multiplayer game developed in <b>C++</b> and <b>SDL</b>, as a submission for <b>Global Game Jam 2025</b>. 
+            Players compete as fish in bubbles that must knock into each other to pop everyone else, 
+            while also avoiding any pufferfish and jellyfish swimming around.</p>
           <p style = "font-weight:bold">This project was a great experience to:</p>
           <ul>
             <li>Further develop my skill in <b>C++</b>, practising OOP techniques to manage game objects</li>
             <li>Work collaboratively as part of a team with people from other disciplines</li>
-            <li>Practise time management and organistaion skills, splitting the workload over efficiently over the 48 hours</li>
+            <li>Practise time management and organisation skills, splitting the workload efficiently over the 48 hours</li>
           </ul>
         </div>
       </div>
@@ -424,7 +472,8 @@
         </div>
 
         <div class="text">
-          <p>A 2D tile-based survival game, developed with <b>C++</b> and <b>SDL2</b>, that I independently worked on as part of my university course.</p>
+          <p>A 2D tile-based survival game, developed with <b>C++</b> and <b>SDL2</b>, that I independently worked on as part of my university course. 
+          Players must survive by shooting waves of enemies and collecting items to level up their health and buy more ammo.</p>
           <p style = "font-weight:bold">This project was a great experience to:</p>
           <ul>
             <li>Use object-oriented programming techniques in <b>C++</b>, such as inheritance and encapsulation to manage game objects</li>
@@ -513,7 +562,7 @@
         </div>
 
         <div class="text">
-          <p>A 3D wave survival web game, developed using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> that I independently developed as part of my university course.</p>
+          <p>A 3D wave survival web game, developed using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, that I independently developed as part of my university course.</p>
           <p style = "font-weight:bold">This project was a great experience to:</p>
           <ul>
               <li>Use object-oriented techniques in <b>JavaScript</b>, including classes and inheritance, to manage game objects' properties</li>
